@@ -1,22 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Domine|Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans&display=swap');
 
 body {
   background: url('assets/stone.jpg') repeat center center;
   font-family: 'Open Sans', sans-serif;
 }
+
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
 .h1,
 .h2,
 .h3,
-.h4,
-.h5,
-.h6 {
-  font-family: 'Domine', serif;
+.btn,
+.read-more {
+  font-family: 'Crimson Text', serif;
+  font-weight: 600;
+}
+
+.nav-link {
+  font-family: 'Open Sans', sans-serif;
 }
 .btn-lg {
   width: 12rem;
@@ -165,4 +167,8 @@ svg {
 .loadMore {
   background-color: darkgoldenrod !important;
   border: none;
+}
+
+a:hover{
+  color: #dfa801;
 }
