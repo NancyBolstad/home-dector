@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Domine|Open+Sans&display=swap');
+
+body {
+  background: url('assets/stone.jpg') repeat center center;
+  font-family: 'Open Sans', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'Domine', serif;
+}
+.btn-lg {
+  width: 12rem;
+  height: 3rem;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.btn-lg:hover {
+  background-color: black;
+  opacity: 0.8;
+}
+
+.case img {
+  width: 100%;
+}
+
+.case-hero {
+  content: '';
+  width: 100%;
+  height: 250px;
+}
+
+.case-intro {
+  background-color: aliceblue;
+  width: 100%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1383px) {
+  article {
+    display: flex;
+  }
+
+  .case-hero {
+    height: auto;
+    flex-basis: 50%;
+    flex-grow: 1;
+  }
+
+  .case-intro {
+    padding: 90px;
+    flex-basis: 50%;
+    flex-grow: 1;
+  }
+
+  .middle .case-hero {
+    order: 1;
+  }
+}
+
+.living-room {
+  background: url('assets/chairs-2181968_1280.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.studio {
+  background: url('assets/desk.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.garden {
+  background: url('assets/garden.jpg') no-repeat top center;
+  background-size: cover;
+}
+
+.case-intro {
+  background-color: white;
+}
+
+.case-intro a {
+  display: block;
+  border: 3px solid black;
+  padding: 5px 0;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  transition: 0.4s ease-in;
+}
+
+.case-intro a:hover {
+  border: 1px solid black;
+}
+
+.case-intro h2,
+.case-intro p,
+.case-intro a {
+  margin-top: 2rem;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 2.5rem;
+}
+
+@media screen and (min-width: 873px) {
+  .case-intro a {
+    display: block;
+    padding: 5px 0;
+    width: 150px;
+    text-align: center;
+  }
+}
+
+video {
+  position: absolute;
+  right: 0;
+  top: 0;
+  min-width: 100%;
+  z-index: -100;
+}
+
+.page-hero {
+  position: relative;
+  overflow: hidden;
+  height: 65vh;
+}
+
+.btn-warning {
+  border: 3px solid white;
+}
+
+.btn-warning:hover {
+  border: 1px solid white;
+  color: white;
+}
+
+svg {
+  height: 2rem;
+  width: 3rem;
+}
+
+.intro-img {
+  width: 100vw;
+  height: 65vh;
+  filter: brightness(130%);
+}
+
+.intro-text {
+  margin-top: 30vh;
+}
+.selected-btn,
+.loadMore {
+  background-color: darkgoldenrod !important;
+  border: none;
+}
